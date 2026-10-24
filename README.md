@@ -1,15 +1,19 @@
 # Low-Y witch huts
 
 Swamp witch huts whose lowest spawning height is **-55 or deeper**, each one re-read by Minecraft 1.21.4's own world-generation code
-(the oracle in [Low Witch Finder](https://github.com/kyoubitt/Low-Witch-Finder)). **643 huts**, listed at the depth the game gave, not the depth anyone claimed.
+(the oracle in [Low Witch Finder](https://github.com/kyoubitt/Low-Witch-Finder)). Listed at the depth the game gave, not the depth anyone claimed.
 
-| Depth | Huts | From team109's list | Other |
-|---:|---:|---:|---:|
-| -59 | 29 | 28 | 1 |
-| -58 | 208 | 162 | 46 |
-| -57 | 221 | 218 | 3 |
-| -56 | 95 | 95 | 0 |
-| -55 | 90 | 89 | 1 |
+<!-- huts:start -->
+| Depth | Huts | Closest to 0,0 |
+|---:|---:|---|
+| -59 | 29 | `/tp 10775571 -57 -1979225` (seed `2331238980023747641`) |
+| -58 | 208 | `/tp 5811 -56 4423` (seed `795374283637013279`) |
+| -57 | 221 | `/tp 11451648 -55 2183904` (seed `-1017935249147774789`) |
+| -56 | 95 | `/tp 9740096 -54 1107104` (seed `-4740240012570737231`) |
+| -55 | 90 | `/tp 14663264 -53 -462528` (seed `366669180963114071`) |
+
+**643 huts** at -55 or deeper, each re-read by Minecraft 1.21.4's own world generation: [all of them](https://github.com/kyoubitt/low-y-witch-huts).
+<!-- huts:end -->
 
 ## Files
 - `data/y-59.jsonl` ... `data/y-55.jsonl`: one hut per line, closest to 0,0 first:
